@@ -1,5 +1,10 @@
+# fly.toml app configuration file generated for meta-os-dashboard-api on 2026-07-15T01:31:58Z
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
 app = 'meta-os-dashboard-api'
-primary_region = 'ams'
+primary_region = 'fra'
 
 [build]
   dockerfile = 'Dockerfile'
