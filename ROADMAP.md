@@ -1,7 +1,7 @@
 # Roadmap — widget extensions
 
 Implementation plan for the extensions adopted in the framework's
-[systems/interface-extensions.md](https://github.com/mova77/meta-os/blob/main/systems/interface-extensions.md)
+[systems/interface-extensions.md](https://github.com/meta-agentic/meta-os/blob/main/systems/interface-extensions.md)
 (verdicts and contract rationale live there; this file is the app-level how). Ordering
 follows the contract's MVP order: observability before triggers.
 

@@ -1,6 +1,6 @@
 # meta-os dashboard
 
-Layer 3 of a [meta-os](https://github.com/mova77/meta-os) Agentic OS: an
+Layer 3 of a [meta-os](https://github.com/meta-agentic/meta-os) Agentic OS: an
 observability-first command center over your instance vault. **The vault is the
 database** — no proprietary store. Everything here reads git-tracked markdown
 front-matter and JSON artifacts from disk, and the one write path (headless skill runs)
@@ -8,9 +8,9 @@ lands results back into the vault exactly like a terminal session would.
 
 Built prompt-first, not button-first: this is a cockpit for the operator, not a
 click-to-run panel for delegation. See
-[systems/interface-layer.md](https://github.com/mova77/meta-os/blob/main/systems/interface-layer.md)
+[systems/interface-layer.md](https://github.com/meta-agentic/meta-os/blob/main/systems/interface-layer.md)
 and
-[systems/ontology.md](https://github.com/mova77/meta-os/blob/main/systems/ontology.md)
+[systems/ontology.md](https://github.com/meta-agentic/meta-os/blob/main/systems/ontology.md)
 in the framework repo for the full contract this app implements.
 
 ## What it shows
@@ -20,7 +20,7 @@ in the framework repo for the full contract this app implements.
   dependency edges in the mirror), and forecasts (velocity, median-baseline
   acceleration, Little's-Law ETA).
 - **Knowledge graph** — a live, pannable/zoomable view over
-  [graphify](https://github.com/mova77/meta-os/tree/main/skills/graphify) output.
+  [graphify](https://github.com/meta-agentic/meta-os/tree/main/skills/graphify) output.
   Type-stratified so rare categories (docs, decisions, spikes) aren't drowned out by
   code volume, with community drill-down, per-type hub lists, a mouse-hover fisheye
   effect, and ambient + real-event node sparks when the graph changes.
